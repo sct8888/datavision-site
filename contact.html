@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Datavision</title>
+<meta name="description" content="Talk to Datavision via phone, email, WhatsApp or visit us in Cape Town.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .map-embed{margin-top:1.5rem;border-radius:18px;overflow:hidden;border:1px solid var(--line);line-height:0}
+  .map-embed iframe{width:100%;height:320px;border:0;filter:grayscale(.25) contrast(1.05)}
+  .form-status{font-size:.92rem;margin-top:1rem;text-align:center;min-height:1.2em;font-weight:500}
+  .chan a{transition:color .2s}
+  .chan a:hover{color:var(--coral)}
+  .placeholder-flag{font-family:var(--mono);font-size:.62rem;letter-spacing:.05em;color:var(--coral);vertical-align:super}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand"><img class="logo-mark" src="logo.svg" alt=""><span class="wordmark">Datavision</span></a>
+        <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="our-approach.html">Approach</a>
+      <a href="strategic-research.html">Research</a>
+      <a href="brand-strategy.html">Branding</a>
+      <a href="innovative-solutions.html">Innovation</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </div>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="pagehead-bg"></div>
+  <div class="wrap">
+    <p class="kicker reveal">Initial Contact</p>
+    <h1 class="reveal">Let's talk.</h1>
+    <p class="lede reveal">Tell us how we can help and one of our dedicated specialists will reach out as soon as possible. There's no obligation, just a conversation about the way forward.</p>
+  </div>
+</header>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="chan"><div class="owner-mini"><img src="img/dr-haydam.jpg" alt="Dr Norbert Haydam"></div><div><h4>Your contact</h4><p>Dr Norbert Haydam, The Owner</p></div></div>
+        <div class="chan"><div class="ico">&#9993;</div><div><h4>Email</h4><p><a href="mailto:norbert@haydam.co.za">norbert@haydam.co.za</a></p></div></div>
+        <div class="chan"><div class="ico">&#9743;</div><div><h4>Phone</h4><p><a href="tel:+27828827318">+27 82 882 7318</a></p></div></div>
+        <div class="chan"><div class="ico">&#9132;</div><div><h4>WhatsApp</h4><p><a href="https://wa.me/27828827318" target="_blank" rel="noopener">+27 82 882 7318</a></p></div></div>
+        <div class="chan"><div class="ico">&#9046;</div><div><h4>Post / Visit</h4><p>PO Box 51952, Waterfront<br>Cape Town, 8002, South Africa</p></div></div>
+
+        <div class="map-embed">
+          <iframe
+            title="Datavision location, V&amp;A Waterfront, Cape Town"
+            src="https://www.google.com/maps?q=V%26A+Waterfront,+Cape+Town,+South+Africa&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="form reveal">
+        <!-- Replace YOUR_FORM_ID with the ID from your Formspree account (formspree.io) -->
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Doe" required></div>
+          <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@company.co.za" required></div>
+          <div class="field"><label for="company">Company (optional)</label><input id="company" name="company" type="text" placeholder="Acme Pty Ltd"></div>
+          <div class="field"><label for="msg">How can we help?</label><textarea id="msg" name="message" placeholder="Tell us a little about your research or branding challenge&#8230;" required></textarea></div>
+          <input type="hidden" name="_subject" value="New enquiry from datavision.co.za">
+          <button type="submit" class="btn btn-primary">Send message <span class="arr">&#8594;</span></button>
+        </form>
+        <p class="form-status" id="status"></p>
+        <p class="form-note">We respond with a full proposal within seven working days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="clients">
+  <div class="wrap">
+    <p class="clients-head reveal">Some of the brands we have worked with</p>
+    <div class="marquee reveal">
+      <div class="marquee-track"><img src="img/logo-easypay.png" alt="EasyPay"><img src="img/logo-cticc.png" alt="CTICC"><img src="img/logo-cv.png" alt="CV"><img src="img/logo-kauai.png" alt="Kauai"><img src="img/logo-pioneer.png" alt="Pioneer Foods"><img src="img/logo-steenberg.png" alt="Steenberg Vineyards"><img src="img/logo-truworths.png" alt="Truworths"><img src="img/logo-easypay.png" alt="EasyPay"><img src="img/logo-cticc.png" alt="CTICC"><img src="img/logo-cv.png" alt="CV"><img src="img/logo-kauai.png" alt="Kauai"><img src="img/logo-pioneer.png" alt="Pioneer Foods"><img src="img/logo-steenberg.png" alt="Steenberg Vineyards"><img src="img/logo-truworths.png" alt="Truworths"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a href="index.html" class="brand"><img class="logo-mark" src="logo.svg" alt=""><span class="wordmark">Datavision</span></a>
+        <p>A full-service research and branding agency, working in association with academia, researchers and specialists worldwide since 1994.</p>
+      </div>
+      <div class="foot-col"><h5>Navigate</h5><a href="our-approach.html">Our Approach</a><a href="strategic-research.html">Strategic Research</a><a href="brand-strategy.html">Brand Strategy</a><a href="innovative-solutions.html">Innovative Solutions</a></div>
+      <div class="foot-col"><h5>Find us</h5><a href="contact.html">PO Box 51952, Waterfront</a><a href="contact.html">Cape Town, 8002</a><a href="contact.html">South Africa</a></div>
+    </div>
+    <div class="foot-bot"><span>&copy; 1994&#8211;2026 Datavision. All rights reserved.</span><span>Researching the unconscious. Realm of Reality.</span></div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+const form=document.getElementById('contactForm');
+const status=document.getElementById('status');
+form.addEventListener('submit',async(e)=>{
+  e.preventDefault();
+  if(form.action.includes('YOUR_FORM_ID')){
+    status.textContent='Form not yet connected \u2014 add your Formspree ID to enable sending.';
+    status.style.color='var(--coral)';
+    return;
+  }
+  status.textContent='Sending\u2026';
+  status.style.color='var(--ink-soft)';
+  try{
+    const res=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}});
+    if(res.ok){
+      form.reset();
+      status.textContent='Thanks \u2014 your message is on its way. We\u2019ll be in touch shortly.';
+      status.style.color='var(--acid-deep)';
+    }else{
+      status.textContent='Something went wrong. Please email us directly at norbert@haydam.co.za.';
+      status.style.color='var(--coral)';
+    }
+  }catch(err){
+    status.textContent='Network error. Please email us directly at norbert@haydam.co.za.';
+    status.style.color='var(--coral)';
+  }
+});
+</script>
+</body>
+</html>
