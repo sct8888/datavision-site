@@ -329,3 +329,7 @@ section{padding:clamp(64px,9vw,128px) 0}
   section{padding:56px 0}
   .sec-head{margin-bottom:32px}
 }
+/* force single column on small screens, even where inline styles set a grid */
+@media(max-width:900px){
+  .cards,.steps,.creds,.tarot{grid-template-columns:1fr !important}
+}
